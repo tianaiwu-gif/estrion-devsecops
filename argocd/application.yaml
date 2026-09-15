@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY.git
+    repoURL: https://github.com/tianaiwu-gif/estrion-devsecops.git
     targetRevision: main
     path: helm/estrion-app
     helm:
@@ -20,3 +20,6 @@ spec:
       selfHeal: true
     syncOptions:
       - CreateNamespace=true
+
+
+
